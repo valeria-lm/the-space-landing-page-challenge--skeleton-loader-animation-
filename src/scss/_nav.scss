@@ -2,19 +2,19 @@ nav {
   display: flex;
   justify-content: space-between;
   padding: 0.5rem 4rem;
-  background: rgba(255, 255, 255, 0.05);
+  background-color: $bg-nav-white-opacity-color;
   backdrop-filter: blur(25px);
 
   p {
-    font-family: "Century Gothic";
+    font-family: $primary-font;
     letter-spacing: 0.2rem;
   }
 
   ul {
-    font-family: "Alegreya Sans";
+    font-family: $secondary-font;
     display: flex;
     gap: 3rem;
     list-style: none;
-    color: white;
+    color: $white-color;
   }
 }

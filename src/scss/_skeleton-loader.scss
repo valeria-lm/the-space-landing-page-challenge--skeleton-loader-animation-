@@ -1,0 +1,61 @@
+.skeleton {
+  background: $bg-linear-gradient;
+  background-size: 300%;
+  background-position: 100% 0;
+  border-radius: 0.4rem;
+  animation: shine 1.5s infinite;
+}
+
+@keyframes shine {
+  to {
+    background-position: -100% 0;
+  }
+}
+
+nav {
+  p.skeleton {
+    width: 10rem;
+    height: 1.5rem;
+  }
+
+  ul.skeleton {
+    width: 16rem;
+    height: 1.5rem;
+  }
+}
+
+.hero_container {
+  h1.skeleton {
+    width: 30rem;
+    height: 14rem;
+  }
+
+  p.skeleton {
+    width: 34rem;
+    height: 7rem;
+  }
+
+  span.skeleton {
+    width: 12rem;
+    height: 3rem;
+  }
+}
+
+.short-news_container {
+  h4.skeleton {
+    width: 14rem;
+    height: 1.5rem;
+  }
+
+  p.skeleton {
+    width: 20rem;
+    height: 3rem;
+  }
+}
+
+.social-media_container {
+  i.skeleton {
+    width: 1rem;
+    height: 1rem;
+  }
+}

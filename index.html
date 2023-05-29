@@ -20,66 +20,116 @@
     <title>The Space</title>
   </head>
   <body>
-    <div class="bg-container">
-      <div class="bg-image"></div>
-    </div>
-
-    <div class="container">
+    <!-- SKELETON LOADER -->
+    <div class="container" id="loader">
       <nav>
-        <p>StellarSights ✧</p>
-        <ul class="nav_linkers-container">
-          <li>Home</li>
-          <li>About</li>
-          <li>Gallery</li>
-          <li>News</li>
+        <p class="skeleton"></p>
+        <ul class="nav_linkers-container skeleton">
+          <li></li>
+          <li></li>
+          <li></li>
+          <li></li>
         </ul>
       </nav>
 
       <main>
         <section class="info-container">
           <div class="hero_container">
-            <h1>Venturing Beyond Earth's Atmosphere</h1>
-            <p>
-              We're passionate about exploring the unknown and pushing the
-              limits of human knowledge. From the furthest reaches of the galaxy
-              to our own solar system, we're dedicated to uncovering the secrets
-              of the universe and sharing them with you.
-            </p>
-            <button>Explore Now</button>
+            <h1 class="skeleton"></h1>
+            <p class="skeleton"></p>
+            <span class="skeleton"></span>
           </div>
 
           <div class="short-news_container">
             <div class="first-short-news_container">
-              <h4>Mission To Mars</h4>
-              <p>
-                Equipped with a range of scientific instruments, the rover will
-                collect rock and soil samples, which will be...
-              </p>
+              <h4 class="skeleton"></h4>
+              <p class="skeleton"></p>
             </div>
             <div class="second-short-news_container">
-              <h4>Proxima B Exoplanet</h4>
-              <p>
-                The planet is believed to be a rocky world that is slightly
-                larger than Earth and lies within the star's habitable...
-              </p>
+              <h4 class="skeleton"></h4>
+              <p class="skeleton"></p>
             </div>
             <div class="third-short-news_container">
-              <h4>Powerful Space Telescope</h4>
-              <p>
-                NASA's James Webb Space Telescope, has successfully completed
-                its final tests and is now ready for launch in...
-              </p>
+              <h4 class="skeleton"></h4>
+              <p class="skeleton"></p>
             </div>
           </div>
         </section>
         <section class="social-media_container">
           <span></span>
-          <i class="fa-brands fa-facebook"></i>
-          <i class="fa-brands fa-instagram"></i>
-          <i class="fa-brands fa-twitter"></i>
+          <i class="skeleton"></i>
+          <i class="skeleton"></i>
+          <i class="skeleton"></i>
           <span></span>
         </section>
       </main>
     </div>
+
+    <!-- SPACE PAGE -->
+    <div id="spacePage" style="display: none">
+      <div class="bg-container">
+        <div class="bg-image"></div>
+      </div>
+
+      <div class="container">
+        <nav>
+          <p>StellarSights ✧</p>
+          <ul class="nav_linkers-container">
+            <li>Home</li>
+            <li>About</li>
+            <li>Gallery</li>
+            <li>News</li>
+          </ul>
+        </nav>
+
+        <main>
+          <section class="info-container">
+            <div class="hero_container">
+              <h1>Venturing Beyond Earth's Atmosphere</h1>
+              <p>
+                We're passionate about exploring the unknown and pushing the
+                limits of human knowledge. From the furthest reaches of the
+                galaxy to our own solar system, we're dedicated to uncovering
+                the secrets of the universe and sharing them with you.
+              </p>
+              <button>Explore Now</button>
+            </div>
+
+            <div class="short-news_container">
+              <div class="first-short-news_container">
+                <h4>Mission To Mars</h4>
+                <p>
+                  Equipped with a range of scientific instruments, the rover
+                  will collect rock and soil samples, which will be...
+                </p>
+              </div>
+              <div class="second-short-news_container">
+                <h4>Proxima B Exoplanet</h4>
+                <p>
+                  The planet is believed to be a rocky world that is slightly
+                  larger than Earth and lies within the star's habitable...
+                </p>
+              </div>
+              <div class="third-short-news_container">
+                <h4>Powerful Space Telescope</h4>
+                <p>
+                  NASA's James Webb Space Telescope, has successfully completed
+                  its final tests and is now ready for launch in...
+                </p>
+              </div>
+            </div>
+          </section>
+          <section class="social-media_container">
+            <span></span>
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <span></span>
+          </section>
+        </main>
+      </div>
+    </div>
+
+    <script src="app.js"></script>
   </body>
 </html>

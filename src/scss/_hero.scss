@@ -12,24 +12,24 @@ main {
 
     h1 {
       margin: 0;
-      font-family: "Century Gothic";
+      font-family: $primary-font;
       font-size: 4rem;
     }
 
     p {
-      font-family: "Alegreya Sans";
+      font-family: $secondary-font;
       font-size: 1.2rem;
       text-align: justify;
       line-height: 150%;
     }
 
     button {
-      font-family: "Alegreya Sans";
+      font-family: $secondary-font;
       width: 12rem;
       padding: 1rem 2.5rem;
       font-size: 1.2rem;
-      color: white;
-      background: #2757d0;
+      color: $white-color;
+      background-color: $btn-bg-blue-color;
       border: none;
       border-radius: 4rem;
     }
@@ -41,13 +41,13 @@ main {
     margin-top: 6rem;
 
     h4 {
-      font-family: "Century Gothic";
+      font-family: $primary-font;
       text-decoration: underline;
       font-weight: 700;
     }
 
     p {
-      font-family: "Alegreya Sans";
+      font-family: $secondary-font;
     }
   }
 }
